@@ -13,6 +13,10 @@ TEXT HERE
 
    requirements/index
    setup/index
+   assets/index
+   data/index
+   discovery/index
+   settings/index
 
 Indices and tables
 ==================
