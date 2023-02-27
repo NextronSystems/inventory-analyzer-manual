@@ -1,7 +1,7 @@
 ASGARDs
 =======
 
-The ASGARD data source are you existing ASGARDs. You can use them
+The ASGARD data source are your existing ASGARDs. You can use them
 to directly import any asset which is known to your ASGARDs.
 
 To do this, navigate to ``Data Sources`` > ``ASGARDs``.
