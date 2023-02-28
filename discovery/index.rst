@@ -1,10 +1,11 @@
 Discovery
 =========
 
-In this chapter we will explain what Assignment Rules are and how
-to use them, how to create Tasks, and information found in the History.
+The Discovery Chapter describes how asset data is collected,
+how the asset data is being handled and how to create reoccurring
+tasks to keep the inventory up to date.
 
-This step should be be done after creating your Data Sources.
+The first step should be to create Assignment Rules.
 
 .. toctree::
     :caption: Contents

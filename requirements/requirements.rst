@@ -27,30 +27,15 @@ or ASGARD's evidence collection feature extensively.
   AURORA is more demanding than THOR. This results in a maximum of 200/4000/10000
   endpoints if THOR **and** AURORA are installed on each endpoint.
 
-Agent Requirements
-------------------
+NMAP Agent Requirements
+-----------------------
 
-The ASGARD Agent, which is installed on endpoints, uses up to 10MB of RAM.
-THOR uses up to 300 MB of RAM additionally when scanning is in progress. 
-
-The agent will use up to 50 MB of hard disk. Together with THOR and its
-temporary files it uses a maximum of 200 MB in total. 
-
-Please note, that some response actions, such as collecting triage packs
-or collecting system RAM, require additional disk space.
-
-There are no requirements pertaining to the CPU as scans can be scheduled
-in a way that THOR reduces its own process priority and limits its CPU
-usage to a configurable percentage.
-
-Supported operating systems are the ones
-`supported by THOR <https://thor-manual.nextron-systems.com/en/latest/usage/requirements.html#supported>`__.
-Not supported are the operating systems with limited or special THOR support.
+TEXT
 
 Network Requirements
 --------------------
 
-The ASGARD system requires the following open ports (incoming).
+The Inventory Analyzer requires the following open ports (incoming).
 
 From ASGARD Agent to ASGARD Server
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
