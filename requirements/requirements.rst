@@ -15,44 +15,25 @@ or ASGARD's evidence collection feature extensively.
 
    * - Connected Endpoints
      - Minimum  Hardware Requirements
-   * - up to 500 [1]_
+   * - up to 500
      - System memory: 4 GB, Hard disk: 500 GB, CPU Cores: 2
-   * - up to 10,000 [1]_
+   * - up to 10,000
      - System memory: 8 GB, Hard disk: 1TB, CPU Cores: 4
-   * - up to 25,000 [1]_
+   * - up to 25,000
      - System memory: 16 GB, Hard disk: 1TB SSD (min 100 MB/s), CPU Cores: 4
-
-.. [1]
-  THOR and AURORA count as individual endpoints in this calculation.
-  AURORA is more demanding than THOR. This results in a maximum of 200/4000/10000
-  endpoints if THOR **and** AURORA are installed on each endpoint.
 
 NMAP Agent Requirements
 -----------------------
 
-TEXT
+Our NMAP Agent is running only on current debian based distributions.
 
 Network Requirements
 --------------------
 
-The Inventory Analyzer requires the following open ports (incoming).
+The Inventory Analyzer requires the following open firewall ports.
 
-From ASGARD Agent to ASGARD Server
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-.. list-table:: 
-   :header-rows: 1
-   :widths: 60, 40
-
-   * - Description
-     - Ports
-   * - Agent / Server communication
-     - 443/tcp
-   * - Syslog Forwarder (optional)
-     - 514/tcp, 514/udp
-
-From Management Workstation to ASGARD Server
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+From Management Workstation to Inventory Analyzer
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. list-table:: 
    :header-rows: 1
@@ -65,8 +46,8 @@ From Management Workstation to ASGARD Server
    * - Command line administration
      - 22/tcp
 
-From ASGARD to SIEM
-^^^^^^^^^^^^^^^^^^^
+From Inventory Analyzer to NMAP Agent
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. list-table:: 
    :header-rows: 1
@@ -74,25 +55,11 @@ From ASGARD to SIEM
 
    * - Description
      - Ports
-   * - Syslog forwarder
-     - 514/tcp, 514/udp
+   * - Task distribution
+     - 4545/tcp
 
-From ASGARD to Analysis Cockpit
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-.. list-table:: 
-   :header-rows: 1
-   :widths: 70, 30
-
-   * - Description
-     - Ports
-   * - Asset Synchronization, Log- and Sample forwarding
-     - 7443/tcp
-   * - Syslog forwarder (optional)
-     - 514/tcp, 514/udp
-
-From ASGARD and MASTER ASGARD to the Internet
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+From Inventory Analyzer to the Internet
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The ASGARD systems are configured to retrieve updates from the
 following remote systems via HTTPS on port 443/tcp:
@@ -105,46 +72,12 @@ following remote systems via HTTPS on port 443/tcp:
      - Remote Systems
    * - ASGARD packages
      - update3.nextron-systems.com
-   * - THOR updates
-     - update1.nextron-systems.com
-   * - THOR updates
-     - update2.nextron-systems.com
 
 All proxy systems should be configured to allow access to these URLs
 without TLS/SSL interception. (ASGARD uses client-side SSL certificates
 for authentication). It is possible to configure a proxy server, username
 and password during the setup process of the ASGARD platform. Only
 BASIC authentication is supported (no NTLM authentication support).
-
-From MASTER ASGARD to ASGARD
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-.. list-table:: 
-   :header-rows: 1
-   :widths: 70, 30
-
-   * - Direction
-     - Port
-   * - From MASTER ASGARD v2 to ASGARD v2
-     - 5443/tcp
-   * - From MASTER ASGARD v2 to ASGARD v1
-     - 9443/tcp
-
-You cannot manage ASGARD v2 systems from a MASTER ASGARD v1.
-
-From Management Workstation to MASTER ASGARD
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-.. list-table:: 
-   :header-rows: 1
-   :widths: 70,30
-
-   * - Description
-     - Port
-   * - Administrative web interface
-     - 8443/tcp
-   * - Command line administration
-     - 22/tcp
 
 Time Synchronization
 ^^^^^^^^^^^^^^^^^^^^
