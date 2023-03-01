@@ -32,7 +32,7 @@ NMAP Agent Installer.
    :alt: New NMAP Agent
 
 After creating and installing your NMAP Agent, you can later use it while creating a new
-``NMAP Agent Task``. -> REF HERE
+``NMAP Agent Task``. Please see the chapter :ref:`discovery/tasks:tasks`.
 
 .. hint::
   Unused Agent Installers can be deleted if they are no longer needed.

@@ -23,10 +23,10 @@ structure of the CSV file should look like.
 
 Chose your ``Column Separator`` and ``Columns`` as you need. Please keep
 in mind, that you can choose any column, either system defaults or manually
-created ones. -> REF HERE
+created ones. Please see chapter :ref:`assets/columns:columns`.
 
 .. figure:: ../images/data_sources_csv_new_template.png
    :alt: New CSV Templates
 
 After creating your CSV template, you can later use it while creating a new
-``CSV Template Task``. -> REF HERE
+``CSV Template Task``. Please see chapter :ref:`discovery/tasks:tasks`.

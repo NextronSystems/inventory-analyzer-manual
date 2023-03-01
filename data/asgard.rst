@@ -21,4 +21,5 @@ Here you can set the ``URL`` and ``API Key``.
 .. figure:: ../images/data_sources_asgards_new.png
    :alt: Add New ASGARD
 
-You can now use this ASGARD as Data Source for a new Discovery Task. -> REF HERE
+You can now use this ASGARD as Data Source for a new Discovery Task. Please
+see chapter :ref:`discovery/tasks:tasks`.
