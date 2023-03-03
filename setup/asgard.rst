@@ -1,5 +1,7 @@
-Install the ASGARD Management Center Services
-=============================================
+.. index:: Install Inventory Analyzer
+
+Install the Inventory Analyzer Service
+======================================
 
 Use SSH to connect to the appliance using the user ``nextron`` and the password you
 specified during the installation (if you were using an old ISO to install the base
@@ -19,6 +21,8 @@ The output should look like the screenshot below with status ``Active``.
    :alt: systemctl status asgard2
 
 Installation is complete, you are ready to log into the web-based GUI.
+
+.. index:: Changing IP-Address
 
 Changing the IP-Address
 =======================
@@ -40,6 +44,8 @@ ASGARD's IP-Address can be changed in **/etc/network/interfaces**. The IP is con
 Important: There might be a case where the name of the network adaptor (in this example: ``ens32``) can vary.
 
 The new IP can be applied with the command **sudo systemctl restart networking**
+
+.. index:: Verify DNS Settings
 
 Verifying DNS Settings
 ----------------------

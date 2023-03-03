@@ -1,3 +1,5 @@
+.. index:: Other
+
 Choosing a password
 ===================
 

@@ -1,7 +1,9 @@
+.. index:: CSV Templates
+
 CSV Templates
 =============
 
-You can also create CSV Templates to import assets.
+You can also create ``CSV Templates`` to import assets.
 
 You can freely design multiple templates to your liking
 and import the data later.
@@ -14,6 +16,8 @@ top right corner.
 
 .. figure:: ../images/data_sources_csv_overview.png
    :alt: CSV Templates Overview
+
+.. index:: New CSV Templates
 
 Creating a new CSV Template
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~

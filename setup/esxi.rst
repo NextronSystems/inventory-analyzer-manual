@@ -1,3 +1,5 @@
+.. index:: ESXi VM
+
 Create a new ESX VM and Mount the ISO
 =====================================
 

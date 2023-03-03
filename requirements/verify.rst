@@ -1,3 +1,5 @@
+.. index:: Verify ISO
+
 Verify the Downloaded ISO (Optional)
 ------------------------------------
 

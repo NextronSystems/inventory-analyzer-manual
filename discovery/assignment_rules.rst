@@ -1,3 +1,5 @@
+.. index:: Assignment Rules
+
 Assignment Rules
 ================
 
@@ -10,6 +12,8 @@ and one for NMAP, which cannot be deleted or changed.
 You can create Assignment Rules based on a Rule Type. Those Rule Types
 are the same as your Data Sources: :ref:`data/asgard:asgards`, 
 :ref:`data/nmap_agents:nmap agents` and :ref:`data/csv_templates:csv templates`.
+
+.. index:: New Assignment Rule
 
 Creating Assignment Rules
 ~~~~~~~~~~~~~~~~~~~~~~~~~

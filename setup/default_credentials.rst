@@ -1,3 +1,5 @@
+.. index:: Default Credentials
+
 Changing the Web Password
 =========================
 

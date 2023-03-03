@@ -1,7 +1,9 @@
+.. index:: ASGARDs
+
 ASGARDs
 =======
 
-The ASGARD data source are your existing ASGARDs. You can use them
+The ``ASGARD`` data source are your existing ASGARDs. You can use them
 to directly import any asset which is known to your ASGARDs.
 
 To do this, navigate to ``Data Sources`` > ``ASGARDs``.
@@ -11,6 +13,8 @@ as a data source.
 
 .. figure:: ../images/data_sources_asgards_overview.png
    :alt: ASGARDs Overview
+
+.. index:: New ASGARD
 
 Adding a new ASGARD
 ~~~~~~~~~~~~~~~~~~~

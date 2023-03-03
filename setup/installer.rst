@@ -1,3 +1,5 @@
+.. index:: Installer
+
 Navigate through the installer
 ==============================
 

@@ -1,3 +1,5 @@
+.. index:: Network Configuration
+
 Network Configuration
 =====================
 

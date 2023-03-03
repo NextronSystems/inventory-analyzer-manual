@@ -1,3 +1,5 @@
+.. index:: NMAP Agents
+
 NMAP Agents
 ===========
 
@@ -16,6 +18,8 @@ time with your Inventory Analyzer (Last Seen).
 
 .. figure:: ../images/data_sources_nmap_overview.png
    :alt: NMAP Agents Overview
+
+.. index:: New NMAP Agent Installer
 
 Creating a new NMAP Agent Installer
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -36,6 +40,8 @@ After creating and installing your NMAP Agent, you can later use it while creati
 
 .. hint::
   Unused Agent Installers can be deleted if they are no longer needed.
+
+.. index:: Installing an NMAP Agent
 
 Installing an NMAP Agent
 ~~~~~~~~~~~~~~~~~~~~~~~~
@@ -74,6 +80,8 @@ You can check if the Inventory Analyzer Agent is running:
 
     Feb 27 15:19:58 server systemd[1]: Started ASGARD Inventory Agent.
     Feb 27 15:19:58 server asgard-inventory-agent[3029]: 2023/02/27 15:19:58 {"CA":"/etc/asgard-inventory-agent/ca-inventory.pem","HOST":"0.0.0.0","KEY":"/etc/asgard-inventory-agent/se>
+
+.. index:: Uninstalling an NMAP Agent
 
 Uninstall an NMAP Agent
 ~~~~~~~~~~~~~~~~~~~~~~~

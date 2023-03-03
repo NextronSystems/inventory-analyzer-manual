@@ -1,8 +1,13 @@
+.. index:: Columns
+
 Columns
 =======
 
-The Column View gives you the option to define new columns for your view.
+The ``Column`` section gives you the option to define new columns for your view.
 The Inventory Analyzer comes with predefined and non removable columns.
+
+All columns created here can also be used to import asset data in your
+:ref:`discovery/assignment_rules:assignment rules`.
 
 .. figure:: ../images/assets_columns_overview.png
    :alt: Columns Overview
@@ -10,7 +15,7 @@ The Inventory Analyzer comes with predefined and non removable columns.
 Creating new Columns
 ~~~~~~~~~~~~~~~~~~~~
 
-To create a new Columns, click the ``Add Column`` button in the top right corner.
+To create a new Column, click the ``Add Column`` button in the top right corner.
 
 You can chose between different Column Types:
 

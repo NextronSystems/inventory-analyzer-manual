@@ -1,10 +1,13 @@
-.. _index:
+.. index:: Home
 
-================================================
-Welcome to the Inventory Analyzer documentation!
-================================================
+===============================================
+Welcome to the Inventory Analyzer documentation
+===============================================
 
-TEXT HERE
+The ASGARD Inventory Analyzer is used to create an inventory
+of all your assets. There are several methods to feed asset data
+into the Inventory Analyzer, which are all described throughout
+this document.
 
 .. toctree::
    :maxdepth: 2
@@ -17,8 +20,10 @@ TEXT HERE
    data/index
    discovery/index
    settings/index
+   known-issues/index
 
 Indices and tables
 ==================
 
+* :ref:`genindex`
 * :ref:`search`
