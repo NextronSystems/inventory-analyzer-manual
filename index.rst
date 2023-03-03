@@ -22,8 +22,7 @@ this document.
    settings/index
    known-issues/index
 
-Indices and tables
-==================
+Index
+=====
 
 * :ref:`genindex`
-* :ref:`search`
