@@ -9,3 +9,6 @@ You should change the password for the ``admin`` user after the installation is 
 
 To do this, navigate to ``Settings`` > ``Password``. Please see the chapter
 :ref:`settings/password:password`.
+
+.. figure:: ../images/setup_changing_the_password.png
+   :alt: Changing the default user password

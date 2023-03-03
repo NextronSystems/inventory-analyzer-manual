@@ -31,10 +31,11 @@ Proxy Configuration
 ===================
 
 If you are using a proxy to access the internet, enter the proxy details in the next step.
-Please note, ``Internet connectivity is required`` for the next step – the installation of the ASGARD service. 
+Please note, ``Internet connectivity is required`` for the next step – the installation of
+the Inventory Analyzer service. 
 
 .. figure:: ../images/setup_proxy.png
    :alt: Finish the installation
 
-The base installation is now complete. In the next step we will install the ASGARD service.
+The base installation is now complete. In the next step we will install the service.
 For this step ``Internet connectivity is required``.

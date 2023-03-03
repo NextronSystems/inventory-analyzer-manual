@@ -8,7 +8,7 @@ we will use VMWare ESXi managed through a VMWare VCenter.
 
 The new VM must be configured with a Linux base system and Debian
 GNU/Linux 10 (64 bits) as target version. It is recommended to upload
-the ASGARD or MASTER ASGARD ISO to an accessible data store and mount
+the ``nextron-universal-installer.iso`` to an accessible data store and mount
 the same to your newly created VM. 
 
 .. figure:: ../images/setup_esx1.png
@@ -24,5 +24,5 @@ the same to your newly created VM.
    :alt: New Virtual Machine - ESX
 
 Please make sure to select a suitable v-switch or physical interface that
-reflects the IP address scheme you are planning to use for the new ASGARD.
-Only use one Hard Disk for the installation.
+reflects the IP address scheme you are planning to use for the new Inventory
+Analyzer. Only use one Hard Disk for the installation.

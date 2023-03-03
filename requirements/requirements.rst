@@ -77,10 +77,12 @@ following remote systems via HTTPS on port 443/tcp:
   and password during the setup process of the underlying platform. Only
   BASIC authentication is supported (no NTLM authentication support).
 
+.. index:: NTP
+
 Time Synchronization
 ^^^^^^^^^^^^^^^^^^^^
 
-ASGARD tries to reach the public Debian time servers by default.
+The application tries to reach the public Debian time servers by default.
 
 .. list-table:: 
    :header-rows: 1
@@ -95,14 +97,15 @@ ASGARD tries to reach the public Debian time servers by default.
    * - 2.debian.pool.ntp.org
      - 123/udp
 
-The NTP server configuration can be changed.
+.. hint:: 
+  The NTP server configuration can be changed.
 
 .. index:: DNS
 
 DNS
 ^^^
 
-ASGARD needs to be able to resolve internal and external IP addresses.
+The application needs to be able to resolve internal and external IP addresses.
 
 .. warning:: 
   Please make sure that you install your Inventory Analyzer with a

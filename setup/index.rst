@@ -3,7 +3,7 @@ Setup Guide
 
 This chapter contains the setup guide with an example on how to
 create a new ESXi virtual machine and installing the ASGARD
-Management Center.
+Inventory Analyzer.
 
 .. toctree::
    :caption: Contents
@@ -12,5 +12,5 @@ Management Center.
    installer
    network
    other
-   asgard
+   inventory
    default_credentials

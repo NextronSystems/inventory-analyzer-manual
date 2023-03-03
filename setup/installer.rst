@@ -26,6 +26,6 @@ The installer then loads the additional components from the ISO and lets you sel
 
 
 If DHCP is available, network parameters will be configured automatically.
-Without DHCP, ASGARD drops into the manual network configuration dialogue. 
+Without DHCP, the installer drops into the manual network configuration dialogue. 
 
-Without DHCP, ASGARD proceeds with the manual network configuration dialogue.
+Without DHCP, the installer proceeds with the manual network configuration dialogue.
