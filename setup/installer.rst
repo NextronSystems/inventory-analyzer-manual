@@ -3,7 +3,7 @@
 Navigate through the installer
 ==============================
 
-The installation Process is started by clicking on ASGARD Graphical install.
+The installation Process is started by selecting ASGARD Installation.
 The installer then loads the additional components from the ISO and lets you select location and language.
 
 .. figure:: ../images/setup_iso_installer.png
