@@ -44,19 +44,23 @@ The NMAP Task will run an nmap scan from the defined data source. You have to
 provide the assignment ruleset, the agent and a scan target. The scan target can
 be in the following format:
 
-* FQDN, for example ``myhost.domain.local``
-* Single IP, for example ``192.168.0.122``
-* Subnets, for example ``192.168.0.0/24``
-* Comma Separated, for example ``192.168.0.1,5,10``
+- FQDN, for example ``myhost.domain.local``
+- Single IP, for example ``192.168.0.122``
+- Subnets, for example ``192.168.0.0/24``
+- Comma Separated, for example ``192.168.0.1,5,10``
+  
+  * This would scan the hosts ``192.168.0.1``, ``192.168.0.5`` and ``192.168.0.10``
 
-   * This would scan the hosts ``192.168.0.1``, ``192.168.0.5`` and ``192.168.0.10``
+- Ranges, for example ``192.168.1-10.1``
+  
+  * This would scan the hosts ``192.168.1.1`` until ``192.168.10.1``
 
-* Ranges, for example ``192.168.1-10.1``
+- Or combinations, for example ``192.168.0-10,20,30.1-20,30,40``
+- You can use a combination of all of the above, for example ``myhost.domain.local 192.168.0.0/4 192.168.1-10.1-254``
 
-   * This would scan the hosts ``192.168.1.1`` until ``192.168.10.1``
-
-* Or combinations, for example ``192.168.0-10,20,30.1-20,30,40``
-* You can use a combination of all of the above, for example ``myhost.domain.local 192.168.0.0/4 192.168.1-10.1-254``
+.. hint:: 
+   For a full explanation of the target specification, please see the official
+   nmap documentation `here <https://nmap.org/book/man-target-specification.html>`_.
 
 For the Flags we also have a few predefined options:
 
