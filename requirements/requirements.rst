@@ -22,6 +22,9 @@ NMAP Agent Requirements
 
 Our NMAP Agent is running only on current debian based distributions.
 
+The NMAP Agent needs ``nmap`` installed. You can either do this before
+installing the agent, or let ``apt`` resolve the dependency.
+
 .. index:: Network Requirements
 
 Network Requirements
