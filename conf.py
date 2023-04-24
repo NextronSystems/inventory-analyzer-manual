@@ -30,7 +30,6 @@ author = 'Markus Meyer'
 extensions = [
     'sphinx.ext.autosectionlabel',
     'sphinx_rtd_theme',
-    'sphinx_search.extension'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
